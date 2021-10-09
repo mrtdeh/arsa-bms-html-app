@@ -2,22 +2,14 @@
 <html lang="en">
   <head>
     <!-- * Safari Renderer * -->
-    <script src="https://unpkg.com/platform@1.3.5/platform.js"></script>
+    <!-- <script src="https://unpkg.com/platform@1.3.5/platform.js"></script> -->
     <script>
-      var os = platform.os.family
-      if(os.toLowerCase() == "ios" && parseInt(platform.version.split(".")[0]) >= 15){
-        console.log("platform is iOS 15")
-        alert("platform is iOS 15")
-     
-          window.flutterWebRenderer = "html";
-      } else {
-        console.log("platform is other")
-        alert("platform is other")
 
-
-          // Optional, default is `auto`
-          window.flutterWebRenderer = "canvaskit";
-      }
+      window.flutterWebRenderer ="html"
+      
+      // if (platform.name.toLowerCase() == "safari" && parseInt(platform.version.split(".")[0]) < 15) {
+      //     window.flutterWebRenderer = "canvaskit";
+      // }
     </script>
     
   
@@ -91,10 +83,8 @@
       <div class="loader"></div>
     </div>
   
-    <!-- <script src="main.dart.js" type="application/javascript"></script> -->
     <script>
-      print
-      var serviceWorkerVersion = '1239386547';
+      var serviceWorkerVersion = '3660059131';
       var scriptLoaded = false;
       function loadMainDartJs() {
         if (scriptLoaded) {
