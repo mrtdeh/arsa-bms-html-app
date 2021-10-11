@@ -22176,14 +22176,14 @@ else q=!1
 else q=!0
 q=q?B.de:r
 return new A.t5(new A.u7(b,c,!0,!0,!0,A.aBN()),d,f,!1,r,s,q,r,g,r,0,a,c,B.D,B.cw,r,B.at,r)},
-yZ(a,b,c,d,e,f,g){var s,r=null,q=Math.max(0,b*2-1),p=e==null
+yZ(a,b,c,d,e,f,g,h){var s,r=null,q=Math.max(0,c*2-1),p=f==null
 if(p)s=!0
-else s=e
-if(d==null){if(e!==!0)if(p)p=!0
+else s=f
+if(e==null){if(f!==!0)if(p)p=!0
 else p=!1
 else p=!0
-p=p?B.de:r}else p=d
-return new A.t5(new A.u7(new A.a6O(a,f),q,!0,!0,!0,new A.a6P()),c,B.z,!1,r,s,p,r,g,r,0,r,b,B.D,B.cw,r,B.at,r)},
+p=p?B.de:r}else p=e
+return new A.t5(new A.u7(new A.a6O(b,g),q,!0,!0,!0,new A.a6P()),d,B.z,!1,r,s,p,r,h,r,0,a,c,B.D,B.cw,r,B.at,r)},
 aDJ(a,b,c,d){var s,r=null
 if(c==null)s=B.de
 else s=c
@@ -41349,7 +41349,7 @@ m(a){this.aN(0)},
 A(a,b){var s,r,q,p,o,n,m,l=this,k=null,j=A.aM(k,k,B.j,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k)
 j=A.Y(k,A.agX(!1,l.y,A.yz(k,new A.eB(4,A.dk(5),B.y6),k,k,k,k,k,k,!0,k,k,k,k,k,B.i,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!1,k,k,k,"New Room Name",k,k,k,k,k,k,k,k,k,k,k),!1,k,k,l.z,k,1,new A.ajq(l),k,k,k,k,j,B.aG,k,k),B.f,k,k,k,k,k,k,new A.K(2,2,2,2),k,k,k)
 s=A.le(k,!1,A.r("Create new Room",k,k,k,k,A.aM(k,k,B.i,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.f,B.aJ,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,new A.ajr(l,b),k,k,k,k,k)
-r=A.Y(k,l.d.length===0?new A.bP(B.t,k,k,A.r("Rooms already was not added yet.!",k,k,k,k,A.aM(k,k,B.an,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),k):A.aI(A.b([A.Y(B.jM,A.r("Select the room in the below list :",k,k,k,k,A.aM(k,k,B.an,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.f,k,k,k,k,k,k,new A.K(20,20,20,20),k,k,k),A.yZ(new A.ajs(l),l.d.length,k,new A.tX(k),!0,new A.ajt(),!0)],t.p),B.n,B.p,B.o),B.f,k,k,k,k,k,k,k,k,k,k)
+r=A.Y(k,l.d.length===0?new A.bP(B.t,k,k,A.r("Rooms already was not added yet.!",k,k,k,k,A.aM(k,k,B.an,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),k):A.aI(A.b([A.Y(B.jM,A.r("Select the room in the below list :",k,k,k,k,A.aM(k,k,B.an,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.f,k,k,k,k,k,k,new A.K(20,20,20,20),k,k,k),A.yZ(k,new A.ajs(l),l.d.length,k,new A.tX(k),!0,new A.ajt(),!0)],t.p),B.n,B.p,B.o),B.f,k,k,k,k,k,k,k,k,k,k)
 q=b.I(t.w).f
 p=A.Z(100,0,0,0)
 o=A.mg(B.j,1)
@@ -42821,7 +42821,7 @@ return A.P($async$vr,r)},
 A(a,b){var s=this,r=null,q=t.p,p=A.Y(B.dd,A.jb(A.aO(A.b([A.b0(B.kJ,B.i,r),A.aH(r,r,10),A.r("Refresh",r,r,r,r,A.aM(r,r,B.i,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],q),B.n,B.p,B.Z,r),new A.at3(s),r),B.f,r,r,r,r,r,r,new A.K(10,10,10,10),r,r,r),o=A.dk(75)
 A.Y(B.dd,A.le(r,!1,A.aO(A.b([A.b0(B.kJ,B.i,r),A.aH(r,r,10),A.r("Reset & Refresh",r,r,r,r,A.aM(r,r,B.i,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],q),B.n,B.p,B.Z,r),B.f,B.aK,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.at4(s),r,new A.dc(o,B.r),r,r,r),B.f,r,r,r,r,r,r,new A.K(10,10,10,10),r,r,r)
 o=s.e===!0?A.Y(r,A.Y(r,A.aO(A.b([A.oa(B.i,r)],q),B.n,B.J,B.o,r),B.f,r,r,r,r,60,r,r,r,r,r),B.f,r,r,r,r,r,r,r,r,r,r):A.Y(r,A.aO(A.b([p],q),B.n,B.p,B.o,r),B.f,r,r,r,r,50,r,r,r,r,r)
-return A.eD(r,B.A,A.aI(A.b([o,A.bm(A.yZ(new A.at5(s,new A.at1(),new A.asZ(s,b),new A.at2()),s.z.length,new A.K(0,0,0,20),r,r,new A.at6(),!1),1)],q),B.n,B.p,B.o),r,r,r,r)}}
+return A.eD(r,B.A,A.aI(A.b([o,A.bm(A.yZ(50,new A.at5(s,new A.at1(),new A.asZ(s,b),new A.at2()),s.z.length,new A.K(0,0,0,20),r,r,new A.at6(),!1),1)],q),B.n,B.p,B.o),r,r,r,r)}}
 A.asN.prototype={
 $0(){this.a.e=!0},
 $S:0}
@@ -43248,7 +43248,7 @@ this.aj6()},
 m(a){$.bp().q3(0)
 this.aN(0)},
 A(a,b){var s=this,r=null,q=A.kB(r,r,!0,A.Z(150,0,0,0),r,r,1,r,r,r,!1,r,r,r,r,r,!0,r,r,r,r,A.r(s.a.c+" Sensors ("+s.d.length+")",r,r,r,r,r,r,r,r),r,r,r,1,r),p=s.d.length
-return new A.eR(A.eD(q,B.A,p===0?A.cI(new A.eX(r,new A.bt(new A.K(10,0,10,0),A.r("Was not added any "+s.a.c+" sensor yet.",r,r,r,r,r,r,r,r),r),r),r,r):A.yZ(new A.atO(s),p,new A.K(0,20,0,20),r,r,new A.atP(),!1),r,r,r,r),"bg2.jpg",r)}}
+return new A.eR(A.eD(q,B.A,p===0?A.cI(new A.eX(r,new A.bt(new A.K(10,0,10,0),A.r("Was not added any "+s.a.c+" sensor yet.",r,r,r,r,r,r,r,r),r),r),r,r):A.yZ(r,new A.atO(s),p,new A.K(0,20,0,20),r,r,new A.atP(),!1),r,r,r,r),"bg2.jpg",r)}}
 A.atR.prototype={
 $1(a){var s=this.a,r=J.ju(a,new A.atQ(s))
 s.d=A.aA(r,!0,r.$ti.h("p.E"))},
@@ -43698,7 +43698,7 @@ q=this.c?A.Y(B.t,new A.t7(!0,p),B.f,A.Z(150,0,0,0),p,p,p,p,p,p,p,p,p):A.aH(p,p,p
 return A.eG(B.aj,A.b([o,A.pn(p,q,s.a.b,p,0,p,0,r.a.a)],t.p),B.au,p,p)}}
 A.uk.prototype={
 A(a,b){var s=null,r=A.aM(s,s,B.j,s,s,s,s,s,s,s,s,s,s,B.bu,s,s,!0,s,s,s,s,s,s,s,s)
-return A.fd(new A.dI(new A.ak(0,1/0,300,300),A.Y(s,A.yZ(new A.agw(),$.bp().dy.length+1,s,s,s,new A.agx(),!0),B.f,s,s,new A.bj(B.i,s,s,new A.cz(new A.bY(10,10),new A.bY(10,10),B.I,B.I),s,s,B.G),s,s,s,new A.K(0,20,0,0),s,s,s),s),s,s,B.aN,!0,r,s,s,B.a5)}}
+return A.fd(new A.dI(new A.ak(0,1/0,300,300),A.Y(s,A.yZ(s,new A.agw(),$.bp().dy.length+1,s,s,s,new A.agx(),!0),B.f,s,s,new A.bj(B.i,s,s,new A.cz(new A.bY(10,10),new A.bY(10,10),B.I,B.I),s,s,B.G),s,s,s,new A.K(0,20,0,0),s,s,s),s),s,s,B.aN,!0,r,s,s,B.a5)}}
 A.agx.prototype={
 $2(a,b){return A.ri(null,null)},
 $S:64}
@@ -44105,7 +44105,7 @@ B.b.K(s,this.b)},
 $S:0}
 A.aiI.prototype={
 $2(a,b){var s=null,r=A.W(a).afp(B.j),q=A.dk(15),p=this.a,o=t.p
-return A.xp(s,B.A,A.eG(B.t,A.b([new A.hH(r,A.Y(s,A.Y(B.xL,A.aI(A.b([A.bm(A.yZ(new A.aiF(p,b),p.d.length,s,s,s,new A.aiG(),!1),1),new A.bP(B.t,s,s,A.xV(A.r("Ok",s,s,s,s,A.aM(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.aJ,new A.aiH(p,a),s,s),s)],o),B.n,B.p,B.o),B.f,s,s,s,s,s,s,s,s,s,s),B.f,s,s,new A.bj(B.i,s,s,q,s,s,B.G),s,400,s,new A.K(20,50,20,20),s,s,s),s)],o),B.au,s,s),B.f,s,new A.K(10,10,10,10),s)},
+return A.xp(s,B.A,A.eG(B.t,A.b([new A.hH(r,A.Y(s,A.Y(B.xL,A.aI(A.b([A.bm(A.yZ(s,new A.aiF(p,b),p.d.length,s,s,s,new A.aiG(),!1),1),new A.bP(B.t,s,s,A.xV(A.r("Ok",s,s,s,s,A.aM(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.aJ,new A.aiH(p,a),s,s),s)],o),B.n,B.p,B.o),B.f,s,s,s,s,s,s,s,s,s,s),B.f,s,s,new A.bj(B.i,s,s,q,s,s,B.G),s,400,s,new A.K(20,50,20,20),s,s,s),s)],o),B.au,s,s),B.f,s,new A.K(10,10,10,10),s)},
 $S:174}
 A.aiF.prototype={
 $2(a,b){var s=null,r=this.a,q=r.d[b],p=this.b,o=q.a
@@ -44356,7 +44356,7 @@ return A.P($async$ii,r)},
 al8(a){var s=this,r=null,q=A.r(A.c(s.d[a].a),r,r,r,r,r,r,r,r),p=J.L(A.a(s.x,"_switchLoading"),a)?0:1,o=A.Y(B.dd,A.oa(r,r),B.f,r,r,r,r,20,r,r,r,r,20),n=s.d[a].b==="1"&&!0
 return new A.eX(r,A.hh(r,r,r,r,q,A.azB(B.aj,A.b([o,A.Ow(new A.arU(s,a),n)],t.p),p)),r)},
 A(a,b){var s=null,r=this.d.length
-return A.eD(s,B.A,A.Y(s,r===0?A.cI(new A.eX(s,A.r("Devices already was not added to this room yet.!",s,s,s,s,A.aM(s,s,B.an,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s),s,s):A.yZ(new A.arN(this),r,s,s,s,new A.arO(),!1),B.f,s,s,s,s,s,s,s,s,s,s),s,s,s,s)}}
+return A.eD(s,B.A,A.Y(s,r===0?A.cI(new A.eX(s,A.r("Devices already was not added to this room yet.!",s,s,s,s,A.aM(s,s,B.an,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s),s,s):A.yZ(s,new A.arN(this),r,s,s,s,new A.arO(),!1),B.f,s,s,s,s,s,s,s,s,s,s),s,s,s,s)}}
 A.arM.prototype={
 $1(a){var s=this.a
 s.F(new A.arL(s,a))},
