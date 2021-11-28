@@ -31,6 +31,24 @@
   
   
     <style>
+      .logo{
+        background: url(logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+      }
+      html{
+        background: url(bg-blur.jpg);
+    background-size: cover;
+    background-position: unset;
+    background-repeat: no-repeat;
+    height: 100%;
+    /* width: 200px; */
+    padding: 0;
+    margin: 0;
+      }
       body{
         background-color: #282828;
       }
@@ -83,21 +101,22 @@
   
   
     <div class="loading">
-      <div class="loader"></div>
+      <!-- <div class="loader"></div> -->
+      <div class="logo"></div>
     </div>
   
     <script>
-      var serviceWorkerVersion = '2009919254';
+      var serviceWorkerVersion = '4008846133';
       var scriptLoaded = false;
       function loadMainDartJs() {
-        if (scriptLoaded) {
-          return;
-        }
-        scriptLoaded = true;
-        var scriptTag = document.createElement('script');
-        scriptTag.src = 'main.dart.js';
-        scriptTag.type = 'application/javascript';
-        document.body.append(scriptTag);
+        // if (scriptLoaded) {
+        //   return;
+        // }
+        // scriptLoaded = true;
+        // var scriptTag = document.createElement('script');
+        // scriptTag.src = 'main.dart.js';
+        // scriptTag.type = 'application/javascript';
+        // document.body.append(scriptTag);
       }
   
       if ('serviceWorker' in navigator) {
