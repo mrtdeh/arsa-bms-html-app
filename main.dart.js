@@ -41155,16 +41155,17 @@ $1(a){var s=this.a
 return s.c==a.c&&s.e==a.e},
 $S:8}
 A.aj9.prototype={
-$0(){var s=this.a,r=s.a
-if(r.d){r=r.c
-s.d=r
-s.ch=r.d
-r=A.a5Z(s.cx,new A.aj8(s))
-r=r==null?null:r.a
-s.cy=r
-A.D("_remoteBoardSelectValue : "+A.c(r))}if(s.a.d){r=s.d.b
-r.toString
-s.r.sc1(0,r)}},
+$0(){var s,r=this.a,q=r.a
+if(q.d){q=q.c
+r.d=q
+r.ch=q.d
+q=A.a5Z(r.cx,new A.aj8(r))
+q=q==null?null:q.a
+r.cy=q
+if(q==null){s=r.d
+if(s!=null)s.c=null}A.D("_remoteBoardSelectValue : "+A.c(q))}if(r.a.d){q=r.d.b
+q.toString
+r.r.sc1(0,q)}},
 $S:0}
 A.aj8.prototype={
 $1(a){return a.a==this.a.d.c},
